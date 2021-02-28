@@ -6,11 +6,23 @@
     
 // }
 // console.log(reverse);
-let salah = "salah is very important for every  Muslim."
-let reverse = "";
-for(i=0; i<salah.length; i++)
-{
-    let char = salah[i];
-    reverse = char + reverse;
+
+
+// let salah = "salah is very important for every  Muslim."
+// let reverse = "";
+// for(i=0; i<salah.length; i++)
+// {
+//     let char = salah[i];
+//     reverse = char + reverse;
+// }
+// console.log(reverse);
+
+function reverseString(salah){
+    var reverse = "";
+    for (let i = 0; i < salah.length; i++) {
+        const char = salah[i];
+        reverse = char + reverse;
+    }
+    return reverse;
 }
-console.log(reverse);
+console.log(reverseString("Salah is very important for everyone."))

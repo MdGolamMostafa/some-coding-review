@@ -25,10 +25,20 @@
 
 // console.log("After swaping water:",w,"glasses and juice:",j,"glasses");
 
-let w = 1;
-let j = 2;
+// let w = 1;
+// let j = 2;
+// console.log("Before swaping water:",w,"glasses and juice:",j,"glasses");
+
+// [w,j] = [j,w];// this system  is used  in JavaScript.
+
+// console.log("After swaping water:",w,"glasses and juice:",j,"glasses");
+
+
+let w = 22;
+let j = 3;
 console.log("Before swaping water:",w,"glasses and juice:",j,"glasses");
 
-[w,j] = [j,w];// this system  is used  in JavaScript.
-
-console.log("After swaping water:",w,"glasses and juice:",j,"glasses");
+let glass = w ;
+    w = j;
+    j = glass;
+    console.log("After swaping water:",w,"glasses and juice:",j,"glasses");
